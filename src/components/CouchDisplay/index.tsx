@@ -13,7 +13,7 @@ export function CouchDisplay() {
   }
   return (
     <CouchContainer>
-      <ToggleExhibitionButton onClick={handleToggleGif}>
+      <ToggleExhibitionButton onClick={handleToggleGif} type="button">
         <img
           src={isShowingGif ? closeIcon : rotateIcon}
           alt="Alternar modo de exibição"

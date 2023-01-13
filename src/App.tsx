@@ -12,7 +12,7 @@ export function App() {
         <h6>CÓDIGO: 42404</h6>
         <h1>Sofá Margot II - Rosé</h1>
         <p>R$ 4.000</p>
-        <button>ADICIONAR À CESTA</button>
+        <button type="button">ADICIONAR À CESTA</button>
       </CouchInfo>
     </Container>
   )
