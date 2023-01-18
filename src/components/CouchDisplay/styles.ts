@@ -1,14 +1,13 @@
 import { styled } from '../../styles'
 
 export const CouchContainer = styled('div', {
-  width: '449px',
+  width: 'min(449px, 100%)',
   height: '222.96px',
 
   position: 'relative',
 })
 
 export const CouchImage = styled('img', {
-  height: 'inherit',
   width: 'inherit',
 })
 

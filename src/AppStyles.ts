@@ -2,7 +2,9 @@ import { styled } from './styles'
 
 export const Container = styled('div', {
   display: 'flex',
+  flexWrap: 'wrap',
   alignItems: 'center',
+  justifyContent: 'center',
   gap: '0.8125rem',
   minHeight: '100vh',
   margin: '0 auto',
